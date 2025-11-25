@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 # Load the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('D:\Study\Machine Learning\Loan_Eli\trained_model.sav', 'rb'))
 
 def loan_prediction(input_data):
 
